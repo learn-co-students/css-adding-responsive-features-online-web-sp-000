@@ -66,6 +66,10 @@
 }
 
 @media (max-width:700px) {
+  #navbar nav {
+    border-left: none;
+  }
+
   #navbar nav a {
     display: none;
     border-right: none;
@@ -80,10 +84,7 @@
   }
 
   #social {
-    width: 120px;
-  }
-
-  #social a {
-    display: inline-block;
+    right:auto;
+    left: 80px;
   }
 }

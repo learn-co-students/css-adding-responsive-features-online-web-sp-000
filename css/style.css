@@ -205,7 +205,7 @@ img, video, audio, iframe, table, form {
 }
 
 #social a {
-  display: block;
+  display: inline-block;
   width: 40px;
   height: 40px;
   text-indent: 100%;
