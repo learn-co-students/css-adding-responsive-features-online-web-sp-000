@@ -82,4 +82,8 @@
   #social {
     width: 120px;
   }
+
+  #social a {
+    display: inline-block;
+  }
 }
