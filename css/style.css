@@ -85,6 +85,10 @@ iframe {
   height: 403px;
 }
 
+#hamburger-menu{
+  display: none;
+}
+
 .milk-text {
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
