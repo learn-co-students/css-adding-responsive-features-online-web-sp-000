@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 1108px){
+ .wrapper {
+   width: 90%;
+ }
+ #social {
+   top: 82px;
+   right: 4px;
+   width: auto;
+ }
+}
+
+@media only screen and (max-width: 900px){
+  body {
+    font-size: 85%;
+  }
+  #logo h1 {
+    width: 35px;
+    height: 35px;
+  }
+  #logo h2 {
+    font: 2.2em "Clicker Script", cursive;
+  }
+  #social {
+    top: 72px;
+  }
+  .col-3 p {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  #navbar nav a {
+    font: 0.9em "Trebuchet MS", Arial, sans-serif;
+  }
+  .col-3 p {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 1;
+  }
+  .col-1 {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .col-2 {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .col-3 {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .border-right {
+    border-right: 0px dotted #ccc;
+    padding-right: 30px;
+  }
+  #details div {
+    height: auto;
+  }
+}
