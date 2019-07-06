@@ -6,6 +6,7 @@
   #social {
     position: absolute;
     width: auto;
+<<<<<<< HEAD
     top: 82px;
     right: 4px;
   }
@@ -86,5 +87,7 @@
     display: block;
     position: relative;
     margin: 0 auto;
+=======
+>>>>>>> ab0ccf47c73a42d712ec913c8d7519a991765d88
   }
 }
