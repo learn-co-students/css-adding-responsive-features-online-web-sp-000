@@ -96,7 +96,7 @@ iframe {
 }
 
 .border-right {
-  border-right: 1px dotted #ccc;
+  border: 0px;
   padding-right: 30px;
 }
 
@@ -165,25 +165,30 @@ img, video, audio, iframe, table, form {
 }
 
 .col-1 {
-  float: left;
-  width: 32%;
+  float: none;
+  margin-left: 0px;
+  width: 100%;
 }
 
 .col-2 {
-  float: left;
-  width: 66%;
+  float: none;
+  margin-left: 0px;
+  width: 100%;
 }
 
 .col-3 p {
+  width: 100%;
+  float: none;
+  margin-left: 0px;
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
   -moz-column-gap: 1.5em;
   -webkit-column-gap: 1.5em;
   column-gap: 1.5em;
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 1;
 }
 
 [class*="col-"] {
@@ -197,10 +202,12 @@ img, video, audio, iframe, table, form {
 /*/////// SOCIAL ////////*/
 
 #social {
-  position: fixed;
-  top: 163px;
+  position: absolute;
+  top: 72px;
   right: 20px;
-  width: 40px;
+  width: auto;
+  top: 82px;
+  right: 4px;
   z-index: 2;
 }
 
@@ -292,8 +299,8 @@ header {
 
 #logo h1 {
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -304,7 +311,7 @@ header {
 
 #logo h2 {
   display: inline-block;
-  font: 2.5em "Clicker Script", cursive;
+  font: 2.2em "Clicker Script", cursive;
   margin: 0;
   position: relative;
   top: -9px;
@@ -327,7 +334,7 @@ section {
 }
 
 #details div {
-  height: 221px;
+  height: auto;
 }
 
 #details a:link, #details a:visited {

@@ -1,0 +1,19 @@
+@media (max-width: 1108px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 85%;
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+  #navbar nav a {
+    font-size: 0.93m;
+  }
+}
+
