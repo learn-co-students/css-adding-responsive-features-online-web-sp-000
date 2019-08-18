@@ -1,0 +1,26 @@
+.wrapper {
+  width: 90%;
+}
+
+#social {
+  width: auto;
+  margin-top: 82px;
+  margin-right: 4px;
+  
+}
+
+.body {
+  font-size: 85%;
+  
+}
+
+#logo h1 {
+  height: 35px;
+  width: 35px;
+  
+}
+
+#logo h2 {
+  font-size: 2.2em;
+  
+}
