@@ -1,0 +1,55 @@
+@media screen and (max-width: 1108px) {
+  body {
+    background-color: blue;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  #social {
+    position: absolute;
+    width: auto;
+    margin-top: 82px;
+    margin-right: 4px;
+    float: right;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: red;
+    font-size: 85%;
+  }
+  #logo > h1 {
+    height: 35px;
+    width: 35px;
+  }
+  #logo > h2 {
+    font-size: 2.2em;
+  }
+  #social {
+    top: 72px;
+  }
+  .col-3 > p {
+    column-count: 2;
+  }
+  #news, #promotional {
+   float: left;
+   width: 100%;
+   margin: auto;;
+  }
+}
+@media screen and (max-width: 70px) {
+  #navbar > nav > a {
+    font-size: 0.9em;
+  }
+  .col-3 > p {
+    column-count: 1;
+  }
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  #details > div {
+    height: auto;
+  }
+}
