@@ -1,0 +1,31 @@
+.wrapper {
+  width: 90%;
+}
+
+#social {
+  width: auto;
+  position: absolute 82px;
+  top: 82px; right: 4px;
+}
+
+@media (max-width: 750px) {
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  
+  .col-3 p {
+    column-count: 1;
+  }
+  
+  .col-1 .col-2 .col-3 {
+    width: 100%;
+  }
+  
+  .border-right {
+    border: 0;
+  }
+  
+  #details div {
+    height: auto;
+  }
+}
