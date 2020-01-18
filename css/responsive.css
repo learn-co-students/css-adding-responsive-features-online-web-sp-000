@@ -1,4 +1,5 @@
-@media screen and (max-width: 1108px;) {
+/*1100 px breakpoint*/
+@media only screen and (max-width: 1108px) {
   .wrapper {
     width: 90%;
   }
@@ -10,7 +11,8 @@
   }
 }
 
-@@media screen and (max-width: 900px;) {
+/*900 px breakpoint*/
+@@media only screen and (max-width: 900px) {
   body {
     font-size: .85em;
   }
@@ -42,7 +44,8 @@
   }
 }
 
-@media screen and (max-width: 750px;) {
+/*750 px breakpoint*/
+@media only screen and (max-width: 750px) {
   #navbar nav a {
     font-size: 0.9em;
   }
@@ -74,7 +77,11 @@
   }
 }
 
-@media screen and (max-width: 700px;) {
+/*700 px breakpoint*/
+@media only screen and (max-width:700px){
+  #navbar nav a{
+    display:none;
+  }
 
 
 }
