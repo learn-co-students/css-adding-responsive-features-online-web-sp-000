@@ -76,8 +76,7 @@
   }
 
   #logo h1{
-    display: block;
-    float: left;
+    display: none;
   }
 
   #navbar nav a.menu-icon {
