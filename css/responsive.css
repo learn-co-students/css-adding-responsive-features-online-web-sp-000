@@ -83,5 +83,25 @@
     display:none;
   }
 
+  .logo h2{
+    display: none;
+  }
 
-}
+  .logo h1{
+    display: inline-block;
+  }
+
+  #navbar nav a.menu-icon {
+     display: block;
+     float:right;
+     font-size: 1.5em;
+     padding: 10px 20px;
+     width: auto;
+   }
+   #logo{
+     padding: 60px 0 0;
+   }
+   #social{
+     top: 60px;
+   }
+ }
