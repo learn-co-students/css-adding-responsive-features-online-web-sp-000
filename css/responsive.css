@@ -8,6 +8,10 @@
     top: 82px;
     right: 4px;
   }
+  
+  #social a {
+    display: inline-block;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -53,7 +57,31 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  #navbar nav a {
+    display: none;
+  }
+  #navbar nav a.menu-icon {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    width: auto;
+  }
+  
+  #logo {
+    padding: 60px 0 0;
+  }
+  #social {
+    top: 60px;
+  }
+}
 
+@media only screen and (max-width: 495px) {
+  #logo h2 {
+    visibility: hidden;
+  }
+}
 
 
 
