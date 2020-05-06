@@ -1,7 +1,9 @@
 
 @media only screen 
-    and (min-width: 1108px){
-        .wrapper {width: 90%;}
+    and (max-width: 1108px){
+        .wrapper {
+            width: 90%;
+        }
         #social {
             position: absolute;
             width: automatic;
@@ -11,7 +13,7 @@
     }
 
 @media only screen
-    and (min-width: 900px){
+    and (max-width: 900px){
         body {
             text-size-adjust: 85%;
         }
@@ -32,7 +34,7 @@
     }
 
 @media only screen
-    and (min-width: 750px){
+    and (max-width: 750px){
         #navbar nav a {
             font: 0.9em;
         }
@@ -52,7 +54,7 @@
         }
     }
 @media only screen
-    and (min-width: 700px){
+    and (max-width: 700px){
         #navbar nav a {
             display: none;
         }
