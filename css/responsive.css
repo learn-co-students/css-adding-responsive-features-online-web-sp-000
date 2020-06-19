@@ -1,0 +1,72 @@
+/*  Add a breakpoint for 1108px in your responsive.css stylesheet
+Within this breakpoint:
+Set the width of the .wrapper class to 90%
+Change the #social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right */
+
+@media only screen and (max-width: 1108px) {
+    .wrapper {
+        width: 90%;
+    }
+    #social {
+        position: absolute; 
+        top: 82px; 
+        right: 4px;
+    }
+}
+
+/* Add a breakpoint for 900px in your responsive.css stylesheet
+Within this breakpoint:
+Set the body text to a font size of 85%
+Change the #logo h1 to 35px for height and width
+Change the #logo h2 font size to 2.2em
+Adjust the top positioning on the #social selector to 72px
+Change the col-3 p selector to have a column count of 2. 
+Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes! */
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 85%;
+    }
+    #logo.h1 {
+        height: 35px;
+        width: 35px;
+    }
+    #logo.h2 {
+        font-size: 2.2em;
+    }
+    #social {
+        top: 72px;
+    }
+    .col-3 p, .col-2, .col-1 {
+        column-count: 2;
+    }
+}
+
+/* Add a breakpoint for 750px
+Within this breakpoint:
+Set the font size of the #navbar nav a selector to 0.9em;
+Change the .col-3 p column count to 1
+For the .col-1, .col-2, and .col-3 selectors, set the width to 100%, left margin to 0, and float to none
+Remove the right border by setting .border-right border property to 0
+Set the #details div height to auto */
+
+@media only screen and (max-width: 750px) {
+    #navbar nav a {
+        font-size: 0.9em;
+    }
+    .col-3 p {
+        column-count: 1;
+    }
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        margin-left: 0;
+        float: none;
+    }
+    .border-right {
+        border: 0;
+    }
+    #details div {
+        height: auto;
+    }
+}
+
