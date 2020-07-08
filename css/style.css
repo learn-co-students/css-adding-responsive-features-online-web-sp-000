@@ -19,7 +19,7 @@ li {
   margin-left: 20px;
 }
 
-p, address { 
+p, address {
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
@@ -52,7 +52,7 @@ th, td {
 
 th {
   background: #555;
-  color: white;
+  color: teal;
 }
 
 input, textarea {
@@ -162,6 +162,7 @@ img, video, audio, iframe, table, form {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  color:teal;
 }
 
 .col-1 {
@@ -233,6 +234,7 @@ a.gplus:active { background-position: -80px -80px; }
 
 header {
   margin: 0 0 30px;
+  color:teal;
 }
 
 /*////////// NAVBAR //////////*/
@@ -347,12 +349,9 @@ section {
 /*////////// FOOTER //////////*/
 
 footer {
-  text-align: center; 
+  text-align: center;
   font-size: 0.75em;
   padding: 10px;
   background: #eee;
-  border-top: 1px solid; 
+  border-top: 1px solid;
 }
-
-
-
