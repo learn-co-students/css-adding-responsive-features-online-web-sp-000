@@ -9,6 +9,10 @@
         top: 82px;
         right: 4px;
     }
+
+    #social a{
+        display: inline-block;
+      }
 }
 
 @media only screen and (max-width:900px) {
@@ -26,19 +30,10 @@
     }
 
     #social {
-        position: absolute;
-        width: auto;
         top: 72px;
-        right: 4px;
     }
 
     .col-3 p {
-        -moz-column-rule: 1px dotted #ccc;
-        -webkit-column-rule: 1px dotted #ccc;
-        column-rule: 1px dotted #ccc;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
@@ -51,29 +46,8 @@
         font-size: 0.9em;
     }
 
-    #logo h1 {
-        width: 35px;
-        height: 35px;
-    }
-
-    #logo h2 {
-        font-size: 2.2em;
-    }
-
-    #social {
-        position: absolute;
-        width: auto;
-        top: 72px;
-        right: 4px;
-    }
-
+    
     .col-3 p {
-        -moz-column-rule: 1px dotted #ccc;
-        -webkit-column-rule: 1px dotted #ccc;
-        column-rule: 1px dotted #ccc;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
         -moz-column-count: 1;
         -webkit-column-count: 1;
         column-count: 1;
@@ -88,11 +62,31 @@
     }
 
     .border-right {
-        border-right: 0;
+        border: 0;
     }
 
     #details div {
         height: auto;
     }
 }
+
+@media only screen and (max-width:700px){
+    #navbar nav a{
+      display:none;
+    }
+    
+    #navbar nav a.menu-icon {
+      display: block;
+      float:right;
+      font-size: 1.5em;
+      padding: 10px 20px;
+      width: auto;
+    }
+    #logo{
+      padding: 60px 0 0;
+    }
+    #social{
+      top: 60px;
+    }
+  }
 
