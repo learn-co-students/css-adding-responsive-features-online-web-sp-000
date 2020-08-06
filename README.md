@@ -14,7 +14,7 @@ In this lab we will practice adjusting existing HTML and CSS to include
 responsive media queries. Make sure that you are inspecting your website, and
 don't forget to toggle on your [device
 toolbar](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports)!
-
+##
 ## Objectives 
  - Create a meta tag to handle viewport settings
  - Create a new stylesheet for responsive designs
