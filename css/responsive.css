@@ -1,0 +1,85 @@
+﻿@media only screen and (max-width: 1100px) {
+	.wrapper { width: 90%; }
+	#social {
+  position: absolute;
+  width: auto;
+  top: 82px;
+  right: 4px;
+  //z-index: 2;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+/*    - Change the `#logo h1` to 35px for height and width
+    - Change the `#logo h2` font size to 2.2em
+    - Adjust the top positioning on the `#social` selector to 72px
+    - Change the `col-3 p` selector to have a column count of 2. _Hint: look at the `style.css` stylesheet and make sure you grab all three column-count attributes!_
+*/	body {
+		font-size:85%;
+	}
+	#logo h1 {
+		height:35px;
+		width:35px;
+	}
+	#logo h2 {
+		font-size:2.2em;
+	}
+	#social {
+	  top: 72px;
+	}
+	.col-3 p {
+	  column-count: 2;
+	}
+}
+
+/*- **Add a breakpoint for 750px**
+  - Within this breakpoint:
+    - Set the font size of the `#navbar nav a` selector to 0.9em;
+    - Change the `.col-3 p` column count to 1
+    - For the `.col-1`, `.col-2`, and `.col-3` selectors, set the width to 100%, left margin to 0, and float to none
+    - Remove the right border by setting `.border-right` border property to 0
+    - Set the `#details div` height to auto
+*/
+@media only screen and (max-width: 750px) {
+	#navbar nav a {
+		font-size:0.9em;
+	}
+	.col-3 p {
+	  column-count: 1;
+	}
+	.col-1, .col-2, .col-3 {
+	  width:100%;
+	  margin-left:0px;
+	  float:none;
+	}
+	.border-right {
+		border:0px
+	}
+	div#details {
+		height:auto;
+	}
+}
+
+
+/* **Bonus Challenge**
+Add a breakpoint for 700px. Within this breakpoint, we are going to 
+hide all of the navigation links, and 
+display the "hamburger menu" icon that is currently set to be hidden. We also want to 
+hide the text saying "Exceptional Realty Group", 
+leaving the icon visible. Third, we want to 
+adjust the spacing on the logo and social selectors so they remain in line with each other. */
+
+@media only screen and (max-width: 700px) {
+	#navbar nav a {
+		display:none;
+	}
+	#navbar nav a.menu-icon {
+	  display:block;
+	}
+	#logo h2 {
+  display: none;
+	}
+	#social a {
+	  display: inline-block;
+	}
+}
