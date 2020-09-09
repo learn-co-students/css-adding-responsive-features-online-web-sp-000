@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1108px){
+  [class*="wrapper-"] {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px)
+body {
+  font-size: 85%;
+}
+  #logoh1{ width: 35px;}
+    #logoh1{ height: 35px;}
+  #logoh2{ 2.2em;}
+  #social{ top: 72px;}
