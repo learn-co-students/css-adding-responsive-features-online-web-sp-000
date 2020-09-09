@@ -7,6 +7,9 @@ body {
   font-size: 100%;
 }
 
+h1 {
+
+}
 h3 {
   margin: 0 0 10px;
 }
@@ -160,7 +163,7 @@ img, video, audio, iframe, table, form {
 /*/////// LAYOUT ////////*/
 
 .wrapper {
-  width: 960px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -206,8 +209,10 @@ img, video, audio, iframe, table, form {
 
 #social a {
   display: block;
-  width: 40px;
+  width: auto;
   height: 40px;
+  top: 82px;
+  right: 4px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
