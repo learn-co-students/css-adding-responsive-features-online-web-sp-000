@@ -188,7 +188,11 @@ img, video, audio, iframe, table, form {
 
 [class*="col-"] {
   margin-left: 2%;
-}
+} /*this makes all the col1 col2 col3 hbave a margin on the left to 2 percent
+if u have a col3 and col2 as a row, its 2 +66 + 32 + 2 = 100
+if u have 3 col-1, its 2 32 2 32 2 32 (due to margin collapsing) = 100
+somehow the math works out. amazing if u thnk about it
+dont know if a lucky accident or its totally engienered. */
 
 .first {
   margin-left: 0%;
