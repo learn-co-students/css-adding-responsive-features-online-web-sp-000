@@ -1,15 +1,19 @@
 @media only screen and (max-width: 1108px) {
   .wrapper { width: 90%; }
+  
   #social {
     position: absolute;
     top: 82px;
     right: 4px;
+    width: auto;
   }
+  
+  #social a { display: inline-block;}
 }
 
 @media only screen and (max-width: 900px) {
   body {
-    text: 85%;
+    font-size: 85%;
   }
   
   #logo h1 {
@@ -22,14 +26,12 @@
   }
   
   #social {
-    position: absolute;
     top: 72px;
-    right: 4px;
   }
   
   col-3 p {
-    column-rule: 1px dotted #ccc;
-    column-gap: 1.5em;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
     column-count: 2;
   }
 }
@@ -40,19 +42,19 @@
   }
   
   .col-3 p {
-    column-rule: 1px dotted #ccc;
-    column-gap: 1.5em;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
     column-count: 1;
   }
   
   .col-1, .col-2, .col-3 {
     width: 100%;
-    left: 0;
+    margin-left: 0;
     float: none;
   }
   
   .border-right {
-    border: none;
+    border: 0;
   }
   
   #details div {
