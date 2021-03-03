@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1080px) {
+  .wrapper{ width: 90%}
+  #social {
+    position: absolute;
+    width: auto;
+    margin: 82px 4px;   
+  }  
+
+}
+
+@media only screen and (max-width: 900px) {
+  body { font-size: 85%}
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+  #social {position: 75px}
+  .col-3 p { column-count: 2}
+}
+
+@media only screen and (max-width: 750px) {
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  .col-3 p {
+    column-count: 1;
+  }
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+    border-right: 0px;
+  }
+  #details div {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #navbar nav a.menu-icon {
+    display: flex;
+  }
+  div #navbar a{
+    display: none;
+  }
+  #logo h2 {
+    display: none;
+  }
+  #social {
+    display: flex;
+    top: -9px
+  }
+}
