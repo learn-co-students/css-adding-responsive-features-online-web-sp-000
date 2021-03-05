@@ -35,7 +35,7 @@ toolbar](https://developers.google.com/web/tools/chrome-devtools/device-mode/emu
   - Add a breakpoint for 900px in your `responsive.css` stylesheet
   - Within this breakpoint:
     - Set the `body` text to a font size of 85%
-    - Change the `#logo h1` to 35px for height and width
+    - Change the `#logo h1` to 35px for height and widht
     - Change the `#logo h2` font size to 2.2em
     - Adjust the top positioning on the `#social` selector to 72px
     - Change the `col-3 p` selector to have a column count of 2. _Hint: look at the `style.css` stylesheet and make sure you grab all three column-count attributes!_
