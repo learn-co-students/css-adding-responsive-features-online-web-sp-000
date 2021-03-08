@@ -1,0 +1,15 @@
+@media only screen and (max-width: 900px) {
+    body {font-size: 85%; }
+    #logo h1 {height: 35px; width: 35px;}
+    #logo h2 {font-size: 2.2em;}
+    #social {margin-top: 72px;}
+    .col-3 p { float: left; width: 50%}
+  }
+
+  @media only screen and (max-width: 750px) {
+    #navbar nav a {font-size: 0.9em; }
+    .col-1, .col-2, .col-3{width: 100%; float: none; margin-left: 0;}
+    body {border-right: 0;}
+    #details div {height: auto;}
+    .col-3 p { float: left; width: 100%}
+  }
