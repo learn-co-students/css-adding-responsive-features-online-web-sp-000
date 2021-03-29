@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1108px) {
+  .wrapper {
+    width: 90%;
+  }
+  
+  #social {
+    top: 82px;
+    right: 4px;
+    width: auto;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  body {
+    font-size: 85%;
+  }
+  
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+  
+  #logo h2 {
+    font-size: 2.2em;
+  }
+  
+  #social {
+    top: 72px;
+  }
+  
+  .col-3 p {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  
+  .col-3 p {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  
+  .col-1 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+  .col-2 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+  .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+  .border-right {
+    border: 0;
+  }
+  
+  #details div {
+    height: auto;
+  }
+}
