@@ -1,0 +1,36 @@
+
+
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+    .wrapper { width: 90%; }
+    .social {
+      position: absolute;
+      width: auto;
+      padding-top: 82px;
+      padding-right: 4px;
+    }
+  }
+  
+  @media only screen and (min-width: 751px) and (max-width: 900px) {
+    body { font-size: 85%; }
+    #logo h1 {
+      height: 35px;
+      width: 35px;
+    }
+    #logo h2 { font-size: 2.2em; }
+    .social { top: 72px; }
+    .col-3 p {column-count: 2;}
+    .border-right {
+      border-right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 750px){
+    #navbar nav a { font-size: 0.9em; }
+    .col-3 p {column-count: 1;}
+    [class*="col-"] {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+    #details div { height: auto; }
+  }
