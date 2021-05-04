@@ -1,0 +1,35 @@
+
+  @media only screen and (max-width: 1108px) {
+    .wrapper {width: 90%;}
+    #social{
+        position: absolute;
+        width: auto;
+        top:82px; 
+        right: 4px;
+      }
+    }
+
+     @media only screen and (max-width: 900px) {
+       .body {font-size: 85%;}
+       #logo h1{
+        height: 35px;
+        width: 35px;
+        }
+        #logo h2{font-size: 2.2em;}
+        #social{ top: 72p }
+        .col-3 p {column-count: 2;}
+     }
+
+    @media only screen and (max-width: 750px) {
+    .wrapper {width: 90%;}
+    #navbar nav a {font-size: 0.9em;}
+    .col-3 p{column-count: 1;}
+     .col-1, .col-2, .col-3{
+         width: 100%;
+         margin-left: 0;
+         float: none;
+        }         
+    #details div{
+        height: auto;
+    }
+    }
