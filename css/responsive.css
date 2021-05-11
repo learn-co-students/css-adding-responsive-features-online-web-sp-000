@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1108px) {
+  .wrapper {
+    width: 90%;
+  }
+  
+  #social {
+    position:absolute;
+    width:auto;
+    top: 82px;
+    right: 4px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+  body{
+    font-size:85%;
+  }
+  h1{
+    height:35px;
+    width:35px;
+  }
+  #social{
+    top:72px;
+  }
+  
+  .col-3 p {
+  -moz-column-count:2;
+  -webkit-column-count:2;
+  column-count:2;
+}
+}
+
