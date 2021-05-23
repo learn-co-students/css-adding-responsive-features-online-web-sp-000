@@ -56,3 +56,47 @@
   }
 
 }
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media (max-width: 700px) {
+  .nav-items {
+    position: fixed;
+    left: -100%;
+    /*top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);*/
+    
+  }
+
+  .hamburger {
+      display: inline-block;
+      float: left;
+      width: 10%;
+      cursor: pointer;
+      text-align: left;
+  }
+
+  #logo h2 {
+    display: none;
+  }
+
+}
