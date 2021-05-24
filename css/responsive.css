@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+
+/*////////// GLOBAL //////////*/
+
+
+@media (max-width: 1100px) {
+  .wrapper { width: 90%; }
+  #social {position: absolute;
+  width: auto;
+  top: 82px;
+  right: 4px;
+  }
+}
+
+@media (max-width: 900px) {
+  body { 
+    font-size: 85%;
+  }
+
+  #logo h1 {
+    width: 35px; 
+    height: 35px;
+    font-size: 2.2em;
+  }
+
+  #social{
+    position: absolute;
+    top: 50px;
+  }
+  col-3 p {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 750px) {
+  #navbar nav a{
+    font-size: 0.9em;
+    
+  }
+  .col-3 p{
+    column-count: 1;
+  }
+  .col-1, .col-2, .col-3{
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .border-right{
+    border-right: 0;
+  }
+  #details div{
+    height: auto;
+  }
+
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media (max-width: 700px) {
+  .nav-items {
+    position: fixed;
+    left: -100%;
+    /*top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);*/
+    
+  }
+
+  .hamburger {
+      display: inline-block;
+      float: left;
+      width: 10%;
+      cursor: pointer;
+      text-align: left;
+  }
+
+  #logo h2 {
+    display: none;
+  }
+
+}
